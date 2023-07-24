@@ -13,9 +13,11 @@ namespace C__Tutorial_1{
             {
                 Console.WriteLine("Dobredojdovte " + ime);
             }
-            else
-            {
-                Console.WriteLine("Tvoeto ime ne e Nikola");
+            else if(ime.Contains("Roze")){
+                Console.WriteLine("Tvoeto ime e Roze");
+            }
+            else{
+                Console.WriteLine("Tvoeto ime ne e ni Nikola, ni Roze");
             }
         }
 
